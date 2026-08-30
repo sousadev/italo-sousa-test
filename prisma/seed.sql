@@ -135,8 +135,6 @@ INSERT INTO "FacebookAdMetric" (id, "externalCampaignId", "campaignName", "siteR
 INSERT INTO "FacebookAdMetric" (id, "externalCampaignId", "campaignName", "siteRef", "localDate", "accountTimezone", "accountCurrency", spend, impressions, clicks) VALUES ('seed-fb-123', 'fb-site-bemestar-camp-1', 'Bem Estar - Prospecting', 'site-bemestar', '2026-07-29', 'America/New_York', 'USD', 256.5, 9036, 190);
 INSERT INTO "FacebookAdMetric" (id, "externalCampaignId", "campaignName", "siteRef", "localDate", "accountTimezone", "accountCurrency", spend, impressions, clicks) VALUES ('seed-fb-124', 'fb-site-bemestar-camp-1', 'Bem Estar - Prospecting', 'site-bemestar', '2026-07-30', 'America/New_York', 'USD', 257.85, 9073, 191);
 
-INSERT INTO "FacebookAdMetric" (id, "externalCampaignId", "campaignName", "siteRef", "localDate", "accountTimezone", "accountCurrency", spend, impressions, clicks) VALUES ('seed-fb-dup-125', 'fb-site-nutrihealth-camp-1', 'Nutri Health - Prospecting', 'site-nutrihealth', '2026-07-11', 'America/Sao_Paulo', 'BRL', 237.6, 8370, 176);
-
 INSERT INTO "GamAdMetric" (id, "networkCode", "siteCode", "utcDate", "currencyCode", "adRevenue", impressions, "adRequests") VALUES ('seed-gam-126', 'network-001', 'NUTRIHEALTH_MAIN', '2026-07-01', 'USD', 31.92, 7600, 8740);
 INSERT INTO "GamAdMetric" (id, "networkCode", "siteCode", "utcDate", "currencyCode", "adRevenue", impressions, "adRequests") VALUES ('seed-gam-127', 'network-001', 'NUTRIHEALTH_MAIN', '2026-07-02', 'USD', 32.09, 7641, 8787);
 INSERT INTO "GamAdMetric" (id, "networkCode", "siteCode", "utcDate", "currencyCode", "adRevenue", impressions, "adRequests") VALUES ('seed-gam-128', 'network-001', 'NUTRIHEALTH_MAIN', '2026-07-03', 'USD', 32.26, 7682, 8834);
@@ -253,36 +251,6 @@ INSERT INTO "GamAdMetric" (id, "networkCode", "siteCode", "utcDate", "currencyCo
 INSERT INTO "GamAdMetric" (id, "networkCode", "siteCode", "utcDate", "currencyCode", "adRevenue", impressions, "adRequests") VALUES ('seed-gam-239', 'network-001', 'BEMESTAR_MAIN', '2026-07-29', 'USD', 36.74, 8748, 10060);
 INSERT INTO "GamAdMetric" (id, "networkCode", "siteCode", "utcDate", "currencyCode", "adRevenue", impressions, "adRequests") VALUES ('seed-gam-240', 'network-001', 'BEMESTAR_MAIN', '2026-07-30', 'USD', 36.91, 8789, 10107);
 
-INSERT INTO "GamAdMetric" (id, "networkCode", "siteCode", "utcDate", "currencyCode", "adRevenue", impressions, "adRequests") VALUES ('seed-gam-orphan-241', 'network-001', 'PROMOSAUDE_MAIN', '2026-07-01', 'USD', 16.38, 4200, 4620);
-INSERT INTO "GamAdMetric" (id, "networkCode", "siteCode", "utcDate", "currencyCode", "adRevenue", impressions, "adRequests") VALUES ('seed-gam-orphan-242', 'network-001', 'PROMOSAUDE_MAIN', '2026-07-02', 'USD', 16.46, 4220, 4642);
-INSERT INTO "GamAdMetric" (id, "networkCode", "siteCode", "utcDate", "currencyCode", "adRevenue", impressions, "adRequests") VALUES ('seed-gam-orphan-243', 'network-001', 'PROMOSAUDE_MAIN', '2026-07-03', 'USD', 16.54, 4240, 4664);
-INSERT INTO "GamAdMetric" (id, "networkCode", "siteCode", "utcDate", "currencyCode", "adRevenue", impressions, "adRequests") VALUES ('seed-gam-orphan-244', 'network-001', 'PROMOSAUDE_MAIN', '2026-07-04', 'USD', 16.61, 4260, 4686);
-INSERT INTO "GamAdMetric" (id, "networkCode", "siteCode", "utcDate", "currencyCode", "adRevenue", impressions, "adRequests") VALUES ('seed-gam-orphan-245', 'network-001', 'PROMOSAUDE_MAIN', '2026-07-05', 'USD', 16.69, 4280, 4708);
-INSERT INTO "GamAdMetric" (id, "networkCode", "siteCode", "utcDate", "currencyCode", "adRevenue", impressions, "adRequests") VALUES ('seed-gam-orphan-246', 'network-001', 'PROMOSAUDE_MAIN', '2026-07-06', 'USD', 16.77, 4300, 4730);
-INSERT INTO "GamAdMetric" (id, "networkCode", "siteCode", "utcDate", "currencyCode", "adRevenue", impressions, "adRequests") VALUES ('seed-gam-orphan-247', 'network-001', 'PROMOSAUDE_MAIN', '2026-07-07', 'USD', 16.85, 4320, 4752);
-INSERT INTO "GamAdMetric" (id, "networkCode", "siteCode", "utcDate", "currencyCode", "adRevenue", impressions, "adRequests") VALUES ('seed-gam-orphan-248', 'network-001', 'PROMOSAUDE_MAIN', '2026-07-08', 'USD', 16.93, 4340, 4774);
-INSERT INTO "GamAdMetric" (id, "networkCode", "siteCode", "utcDate", "currencyCode", "adRevenue", impressions, "adRequests") VALUES ('seed-gam-orphan-249', 'network-001', 'PROMOSAUDE_MAIN', '2026-07-09', 'USD', 17, 4360, 4796);
-INSERT INTO "GamAdMetric" (id, "networkCode", "siteCode", "utcDate", "currencyCode", "adRevenue", impressions, "adRequests") VALUES ('seed-gam-orphan-250', 'network-001', 'PROMOSAUDE_MAIN', '2026-07-10', 'USD', 17.08, 4380, 4818);
-INSERT INTO "GamAdMetric" (id, "networkCode", "siteCode", "utcDate", "currencyCode", "adRevenue", impressions, "adRequests") VALUES ('seed-gam-orphan-251', 'network-001', 'PROMOSAUDE_MAIN', '2026-07-11', 'USD', 17.16, 4400, 4840);
-INSERT INTO "GamAdMetric" (id, "networkCode", "siteCode", "utcDate", "currencyCode", "adRevenue", impressions, "adRequests") VALUES ('seed-gam-orphan-252', 'network-001', 'PROMOSAUDE_MAIN', '2026-07-12', 'USD', 17.24, 4420, 4862);
-INSERT INTO "GamAdMetric" (id, "networkCode", "siteCode", "utcDate", "currencyCode", "adRevenue", impressions, "adRequests") VALUES ('seed-gam-orphan-253', 'network-001', 'PROMOSAUDE_MAIN', '2026-07-13', 'USD', 17.32, 4440, 4884);
-INSERT INTO "GamAdMetric" (id, "networkCode", "siteCode", "utcDate", "currencyCode", "adRevenue", impressions, "adRequests") VALUES ('seed-gam-orphan-254', 'network-001', 'PROMOSAUDE_MAIN', '2026-07-14', 'USD', 17.39, 4460, 4906);
-INSERT INTO "GamAdMetric" (id, "networkCode", "siteCode", "utcDate", "currencyCode", "adRevenue", impressions, "adRequests") VALUES ('seed-gam-orphan-255', 'network-001', 'PROMOSAUDE_MAIN', '2026-07-15', 'USD', 17.47, 4480, 4928);
-INSERT INTO "GamAdMetric" (id, "networkCode", "siteCode", "utcDate", "currencyCode", "adRevenue", impressions, "adRequests") VALUES ('seed-gam-orphan-256', 'network-001', 'PROMOSAUDE_MAIN', '2026-07-16', 'USD', 17.55, 4500, 4950);
-INSERT INTO "GamAdMetric" (id, "networkCode", "siteCode", "utcDate", "currencyCode", "adRevenue", impressions, "adRequests") VALUES ('seed-gam-orphan-257', 'network-001', 'PROMOSAUDE_MAIN', '2026-07-17', 'USD', 17.63, 4520, 4972);
-INSERT INTO "GamAdMetric" (id, "networkCode", "siteCode", "utcDate", "currencyCode", "adRevenue", impressions, "adRequests") VALUES ('seed-gam-orphan-258', 'network-001', 'PROMOSAUDE_MAIN', '2026-07-18', 'USD', 17.71, 4540, 4994);
-INSERT INTO "GamAdMetric" (id, "networkCode", "siteCode", "utcDate", "currencyCode", "adRevenue", impressions, "adRequests") VALUES ('seed-gam-orphan-259', 'network-001', 'PROMOSAUDE_MAIN', '2026-07-19', 'USD', 17.78, 4560, 5016);
-INSERT INTO "GamAdMetric" (id, "networkCode", "siteCode", "utcDate", "currencyCode", "adRevenue", impressions, "adRequests") VALUES ('seed-gam-orphan-260', 'network-001', 'PROMOSAUDE_MAIN', '2026-07-20', 'USD', 17.86, 4580, 5038);
-INSERT INTO "GamAdMetric" (id, "networkCode", "siteCode", "utcDate", "currencyCode", "adRevenue", impressions, "adRequests") VALUES ('seed-gam-orphan-261', 'network-001', 'PROMOSAUDE_MAIN', '2026-07-21', 'USD', 17.94, 4600, 5060);
-INSERT INTO "GamAdMetric" (id, "networkCode", "siteCode", "utcDate", "currencyCode", "adRevenue", impressions, "adRequests") VALUES ('seed-gam-orphan-262', 'network-001', 'PROMOSAUDE_MAIN', '2026-07-22', 'USD', 18.02, 4620, 5082);
-INSERT INTO "GamAdMetric" (id, "networkCode", "siteCode", "utcDate", "currencyCode", "adRevenue", impressions, "adRequests") VALUES ('seed-gam-orphan-263', 'network-001', 'PROMOSAUDE_MAIN', '2026-07-23', 'USD', 18.1, 4640, 5104);
-INSERT INTO "GamAdMetric" (id, "networkCode", "siteCode", "utcDate", "currencyCode", "adRevenue", impressions, "adRequests") VALUES ('seed-gam-orphan-264', 'network-001', 'PROMOSAUDE_MAIN', '2026-07-24', 'USD', 18.17, 4660, 5126);
-INSERT INTO "GamAdMetric" (id, "networkCode", "siteCode", "utcDate", "currencyCode", "adRevenue", impressions, "adRequests") VALUES ('seed-gam-orphan-265', 'network-001', 'PROMOSAUDE_MAIN', '2026-07-25', 'USD', 18.25, 4680, 5148);
-INSERT INTO "GamAdMetric" (id, "networkCode", "siteCode", "utcDate", "currencyCode", "adRevenue", impressions, "adRequests") VALUES ('seed-gam-orphan-266', 'network-001', 'PROMOSAUDE_MAIN', '2026-07-26', 'USD', 18.33, 4700, 5170);
-INSERT INTO "GamAdMetric" (id, "networkCode", "siteCode", "utcDate", "currencyCode", "adRevenue", impressions, "adRequests") VALUES ('seed-gam-orphan-267', 'network-001', 'PROMOSAUDE_MAIN', '2026-07-27', 'USD', 18.41, 4720, 5192);
-INSERT INTO "GamAdMetric" (id, "networkCode", "siteCode", "utcDate", "currencyCode", "adRevenue", impressions, "adRequests") VALUES ('seed-gam-orphan-268', 'network-001', 'PROMOSAUDE_MAIN', '2026-07-28', 'USD', 18.49, 4740, 5214);
-INSERT INTO "GamAdMetric" (id, "networkCode", "siteCode", "utcDate", "currencyCode", "adRevenue", impressions, "adRequests") VALUES ('seed-gam-orphan-269', 'network-001', 'PROMOSAUDE_MAIN', '2026-07-29', 'USD', 18.56, 4760, 5236);
-INSERT INTO "GamAdMetric" (id, "networkCode", "siteCode", "utcDate", "currencyCode", "adRevenue", impressions, "adRequests") VALUES ('seed-gam-orphan-270', 'network-001', 'PROMOSAUDE_MAIN', '2026-07-30', 'USD', 18.64, 4780, 5258);
 
 INSERT INTO "FxRate" (date, "usdBrl") VALUES ('2026-07-01', 5.050000);
 INSERT INTO "FxRate" (date, "usdBrl") VALUES ('2026-07-02', 5.054000);
@@ -304,6 +272,7 @@ INSERT INTO "FxRate" (date, "usdBrl") VALUES ('2026-07-17', 5.114000);
 INSERT INTO "FxRate" (date, "usdBrl") VALUES ('2026-07-18', 5.118000);
 INSERT INTO "FxRate" (date, "usdBrl") VALUES ('2026-07-19', 5.122000);
 INSERT INTO "FxRate" (date, "usdBrl") VALUES ('2026-07-20', 5.126000);
+INSERT INTO "FxRate" (date, "usdBrl") VALUES ('2026-07-21', 5.130000);
 INSERT INTO "FxRate" (date, "usdBrl") VALUES ('2026-07-22', 5.134000);
 INSERT INTO "FxRate" (date, "usdBrl") VALUES ('2026-07-23', 5.138000);
 INSERT INTO "FxRate" (date, "usdBrl") VALUES ('2026-07-24', 5.142000);
